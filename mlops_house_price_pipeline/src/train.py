@@ -10,7 +10,7 @@ from src.validate_data import validate_data
 FEATURES = ["area_sqft", "bedrooms", "age_years", "distance_km"]
 TARGET = "price_lakh"
 R2_THRESHOLD = 0.85
-
+#comment
 def train():
     df = validate_data()
     X_train, X_test, y_train, y_test = train_test_split(
